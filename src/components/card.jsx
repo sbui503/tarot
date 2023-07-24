@@ -113,7 +113,7 @@ export default function Card ({
         }}
         className='border border-slate-800 w-full h-full rounded-xl bg-orange-50 flex flex-col items-center justify-start pt-2'
       >
-        <div className='select-none overflow-hidden w-5/6 text-xs md:text-base lg:text-lg'>
+        <div className='select-none overflow-auto w-5/6 text-xs md:text-base lg:text-lg'>
           <p className='font-bold text-xs md:text-lg lg:text-2xl'>{name}</p>
           <p className='font-bold text-xs md:text-lg lg:text-2xl'>{arcana}</p>
           <div className='pt-2 md:pt-4'>
