@@ -121,7 +121,7 @@ export default function Card ({
 
             <p className='capitalize'>{keywords.join(', ')}</p>
           </div>
-          <div className='pt-2 md:pt-4 opacity-0 md:opacity-100'>
+          <div className='pt-2 md:pt-4 md:opacity-100'>
             <p className='font-bold'>
               Meanings in {reversed ? 'reversed' : 'upright'}:
             </p>
